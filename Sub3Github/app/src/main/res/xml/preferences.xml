@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_name"
+            android:title="Reminder Alarm"
+            android:summary="Alarm 9:00"
+            android:iconSpaceReserved="false"
+            android:icon="@drawable/ic_notification"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

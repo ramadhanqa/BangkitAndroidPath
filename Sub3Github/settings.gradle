@@ -1,0 +1,3 @@
+include ':aplikasi2'
+include ':app'
+rootProject.name = "Sub3Github"

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovieCatalogJetpack</string>
+    <string name="title_activity_detail_movie">Detail Movies</string>
+    <string name="title">Title</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">Tv Show</string>
+
+    <string name="deadline_date">Genre %s</string>
+
+</resources>
