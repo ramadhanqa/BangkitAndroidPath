@@ -19,7 +19,23 @@ class HomeActivityTest{
     @get:Rule
     var activityRule = ActivityScenarioRule(HomeActivity::class.java)
 
-//    load recyclerview Movie
+//    Skenario Testing Instrumental
+//    Menampilkan data Katalog Movie
+//        - Memastikan rv_movies dalam keadaan tampil
+//        - Gulir rv_movies ke posisi data terakhir
+//
+//    Menampilkan Data Detail Movie
+//        - Memberi tindakan klik pada data pertama di rv_movies
+//        - Memastikan TextView untuk tv_title tampil sesuai dengan yang diharapkan.
+//        - Memastikan TextView untuk tvGenre tampil sesuai dengan yang diharapkan.
+//        - Memastikan TextView untuk tvDeskripsi tampil sesuai dengan yang diharapkan.
+//
+//    Menampilkan data TvShows
+//        - Klik TabLayout dengan teks TvShows
+//        - Memastikan rv_tv dalam keadaan tampil.
+//        - Gulir rv_tv ke posisi data terakhir.
+
+
     @Test
     fun loadMovie() {
         onView(withId(R.id.rv_movies)).check(matches(isDisplayed()))
